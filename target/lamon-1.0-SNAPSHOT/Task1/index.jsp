@@ -57,6 +57,6 @@
     </select>
     <input type="submit" value="Submit" id="submit"><br>
 </form>
-<br><a href="/lamon_war_exploded"><button> Return to homepage</button></a>
+<br><a href="../"><button> Return to homepage</button></a>
 </body>
 </html>
