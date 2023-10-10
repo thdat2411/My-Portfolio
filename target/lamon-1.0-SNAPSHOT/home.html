@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>PortFolio</title>
+    <link rel="icon" type="image/x-icon" href="viadeo.svg">
+</head>
+
+<body>
+<header class="header">
+    <a class="logo">Portfolio.</a>
+    <h3><span class="Welcome-text"></span></h3>
+    <nav class="navbar">
+        <a href="#home" style="--i:1;" class="active">Home</a>
+        <a href="#about" style="--i:2;">About</a>
+        <a href="#tasks" style="--i:3;">Tasks</a>
+        <a href="#contact" style="--i:4;">Contact</a>
+    </nav>
+</header>
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello, It's me</h3>
+        <h1>Cao Thai Dat</h1>
+        <h2>And <span class ="multiple-text"></span></h2>
+        <p>This website's aim is for serving my web study.</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com/dat.hiv/" target="_blank" style="--i:6"><i class="fab fa-facebook-f icon"></i></i></a>
+            <a href="" style="--i:7"><i class="fab fa-twitter icon" ></i></a>
+            <a href="https://github.com/thdat2411" target="_blank" style="--i:8"><i class="fab fa-github icon"></i></a>
+        </div>
+        <a class="btn" >Give me a heart</a>
+    </div>
+    <div class="home-img">
+        <img src="hehe2.jpg" alt="">
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="ny.jpg" alt="">
+    </div>
+    <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <p>My name is Cao Thai Dat, and I'm a 19-year-old student currently pursuing my education at Ho Chi Minh City
+            University of Technology and Education (HCMUTE). I have a deep passion for Information Technology (IT),
+            which is my chosen major at the university.<br>
+            <br>From a young age, I've been fascinated by the world of technology and computers. I'm intrigued by how
+            technology continues to shape our lives, improve efficiency, and create innovative solutions to various
+            challenges. My major in IT at HCMUTE allows me to dive deep into this ever-evolving field, exploring
+            subjects like software development, computer networks, cyber security, and data analysis.</br>
+            <br>I'm particularly enthusiastic about software development and coding. I enjoy the process of creating
+            software applications, solving complex problems, and turning ideas into functional, user-friendly programs.
+            I've had the opportunity to work on various projects during my time at university,
+            honing my programming skills and gaining practical experience.</br></p>
+        <a href="#" class="btn">Read more</a>
+    </div>
+</section>
+<section class="tasks" id="tasks">
+    <h2> My Web <span>tasks</span></h2>
+    <div class="tasks-container">
+        <div class="tasks-box">
+            <i class='bx bxs-bookmarks' ></i>
+            <h3>Task.1</h3>
+            <p>Demo first web application</p>
+            <a href="/lamon_war_exploded/Task1/home" target="_self" class="btn">Visit web</a>
+        </div>
+
+        <div class="tasks-box">
+            <i class='bx bxs-bookmarks'></i>
+            <h3>Task.2</h3>
+            <p>Task 5.2</p>
+            <a href="/lamon_war_exploded/Task2/ListofAlbums" target="_self" class="btn">Visit web</a>
+        </div>
+
+        <div class="tasks-box">
+            <i class='bx bxs-bookmarks' ></i>
+            <h3>Task.3</h3>
+            <p>text</p>
+            <a href="Task2/TestPost.html" class="btn">Visit web</a>
+        </div>
+
+        <div class="tasks-box">
+            <i class='bx bxs-bookmarks' ></i>
+            <h3>Task.4</h3>
+            <p>text</p>
+            <a href="#" class="btn">Visit web</a>
+        </div>
+
+        <div class="tasks-box">
+            <i class='bx bxs-bookmarks' ></i>
+            <h3>Task.5</h3>
+            <p>text</p>
+            <a href="#" class="btn">Visit web</a>
+        </div>
+
+        <div class="tasks-box">
+            <i class='bx bxs-bookmarks' ></i>
+            <h3>Task.6</h3>
+            <p>text</p>
+            <a href="#" class="btn">Visit web</a>
+        </div>
+    </div>
+</section>
+<section class="contact" id="contact">
+    <h2>Contact <span> Me!</span></h2>
+    <form action="https://formspree.io/f/mnqkgkyo"
+          method="POST">
+        <div class="input-box">
+            <input type="text" name = "Full name"  placeholder="Full name" required>
+            <input type="email" name = "Email address" placeholder="Email Address" required>
+        </div>
+        <div class="input-box">
+            <input type="number" name= "Mobile number" placeholder="Mobile number" required>
+            <input type="text" name="Email subject" placeholder="Email subject" required>
+        </div>
+        <textarea name="Message" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+<footer class="footer">
+    <div class="footer-text">
+        <p>Designed by Dat aka Vis<i class="fa-solid fa-heart fa-beat icon"></i></p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-circle'></i></a>
+    </div>
+</footer>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="script.js"></script>
+</body>
+</html>
