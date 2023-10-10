@@ -4,11 +4,11 @@
 <head>
     <meta charset="utf-8">
     <title>Murach's Java Servlets and JSP</title>
-    <link rel="stylesheet" href="/lamon_war_exploded/Task1/main.css" type="text/css"/>
+    <link rel="stylesheet" href="../Task1/main.css" type="text/css"/>
 </head>
 
 <body>
-<img src="/lamon_war_exploded/Task1/sadcat.jpg" alt="JavaLogo" width="500">
+<img src="../Task1/sadcat.jpg" alt="JavaLogo" width="500">
 <h1>Survey</h1>
 <p>If you have a moment, we'd appreciate it if you fill out this survey</p>
 <style>

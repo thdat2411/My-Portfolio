@@ -11,7 +11,7 @@
 <head >
     <meta charset ="utf-8">
     <title> Murach's Java Servlets and JSP</title>
-    <link rel="stylesheet" href="/lamon_war_exploded/Task2/main.css" type="text/css"/>
+    <link rel="stylesheet" href="../Task2/main.css" type="text/css"/>
 </head >
 <body>
 <h1> Downloads</h1>
@@ -24,13 +24,13 @@
     <tr>
         <td>Heal the world</td>
         <td>
-            <a href="/lamon_war_exploded/Task2/musicstore/${productCode}/Heal the world.mp3"> MP3 </a>
+            <a href="../Task2/musicstore/${productCode}/Heal the world.mp3"> MP3 </a>
         </td >
     </tr>
     <tr>
         <td> You are not alone</td>
         <td>
-            <a href="/lamon_war_exploded/Task2/musicstore/${productCode}/You are not alone.mp3"> MP3 </a>
+            <a href="../Task2/musicstore/${productCode}/You are not alone.mp3"> MP3 </a>
         </td>
     </tr>
 </table>

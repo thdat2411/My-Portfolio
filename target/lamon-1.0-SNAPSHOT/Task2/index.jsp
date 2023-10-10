@@ -4,7 +4,7 @@
 <head >
     <meta charset ="utf-8">
     <title> Murach's Java Servlets and JSP</title>
-    <link rel="stylesheet" href="/lamon_war_exploded/Task2/main.css" type="text/css"/>
+    <link rel="stylesheet" href="../Task2/main.css" type="text/css"/>
 </head >
 <body>
 <h1> List of albums</h1>
