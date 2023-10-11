@@ -5,13 +5,6 @@ var typed= new Typed(".multiple-text",{
     backDelay:1000,
     loop: true
 })
-
-var welcomed= new Typed(".Welcome-text",{
-    strings: ["Welcome to my site","Take your time "],
-    typeSpeed: 75,
-    backSpeed: 75,
-
-})
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
 
@@ -57,11 +50,14 @@ contactForm.addEventListener('submit',sendEmail)
 const sr = ScrollReveal({
     origin:'top',
     distance:'60px',
-    duration:2500,
-    delay:400,
+    duration:2000,
+    delay:50,
 });
-sr.init();
-sr.reveal(`.section_text_p1`,{origin: 'right'});
+sr.reveal(`.logo, .hero, .section_pic-container img, .article-container, .detail-container, .experience-sub-title`,{origin: 'left'})
+sr.reveal(`.section__text, .about-details-container,.tasks_content,.tasks_container,.contact_box `,{origin: 'right'})
+sr.reveal(`.tasks_container, .tasks section_text_p1, .tasks tittle,`,{origin:'top'})
+sr.reveal(`.social-media a, .loader,.section_text_p1,.title, .text-container,.contact_button,.details-container`,{origin:'bottom'})
+sr.reveal(`.tasks_card`,{interval:100})
 
 
 

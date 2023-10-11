@@ -25,13 +25,10 @@ br {
 body p {
     margin-bottom: 20px;
 }
-.pad_top {
-
-}
 table, th, td {
     border:1px solid black;
     width: 25%;
-
+    height: 30px;
 }
 table td a{
     text-align: center;

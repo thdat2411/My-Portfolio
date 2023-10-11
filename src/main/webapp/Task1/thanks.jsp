@@ -6,13 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<!doctype html>
-<html lang="vi">
-<head>
-    <meta charset="utf-8">
-    <title>Murach's Java Servlets and JSP</title>
-    <link rel="stylesheet" href="main.css" type="text/css"/>
-</head>
+<%@ include file="/Task1/includes/header.html" %>
 
 <body>
 <h1>Thanks for joining our email list</h1>
@@ -42,4 +36,5 @@
     <input type="submit" value="Return"><br>
 </form>
 </body>
+<%@ include file="/Task1/includes/footer.jsp"%>
 </html>

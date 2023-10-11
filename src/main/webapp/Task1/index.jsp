@@ -1,12 +1,5 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<!doctype html>
-<html lang="vi">
-<head>
-    <meta charset="utf-8">
-    <title>Murach's Java Servlets and JSP</title>
-    <link rel="stylesheet" href="../Task1/main.css" type="text/css"/>
-</head>
 
+<%@ include file="/Task1/includes/header.html" %>
 <body>
 <img src="../Task1/sadcat.jpg" alt="JavaLogo" width="500">
 <h1>Survey</h1>
@@ -59,4 +52,5 @@
 </form>
 <br><a href="../"><button> Return to homepage</button></a>
 </body>
+<%@ include file="/Task1/includes/footer.jsp"%>
 </html>

@@ -21,7 +21,11 @@ public class Task2download extends HttpServlet {
             url = "/Task2/ListofAlbums";
         } else if (action.equals("checkUser")) {
             url = checkUser(request, response);
-        }
+        } else if (action.equals("viewCookies")) {
+        url = "/view_cookies.jsp";
+    } else if (action.equals("deleteCookies")) {
+        url = deleteCookies(request, response);
+    }
 // forward to the view
         getServletContext().getRequestDispatcher(url).forward(request, response);
     }
@@ -92,6 +96,18 @@ public class Task2download extends HttpServlet {
         response.addCookie(c);
         String productCode = (String) session.getAttribute("productCode");
         String url = "/Task2/" + productCode + "_download.jsp";
+        return url;
+    }
+    private String deleteCookies(HttpServletRequest request,
+                                 HttpServletResponse response) {
+
+        Cookie[] cookies = request.getCookies();
+        for (Cookie cookie : cookies) {
+            cookie.setMaxAge(0); //delete the cookie
+            cookie.setPath("/"); //allow the download application to access it
+            response.addCookie(cookie);
+        }
+        String url = "/delete_cookies.jsp";
         return url;
     }
 }
