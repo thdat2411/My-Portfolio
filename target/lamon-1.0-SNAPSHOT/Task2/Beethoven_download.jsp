@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html>
-<head >
+<head>
     <meta charset ="utf-8">
     <title> Murach's Java Servlets and JSP</title>
     <link rel="stylesheet" href="../Task2/main.css" type="text/css"/>
@@ -24,13 +24,13 @@
     <tr>
         <td>Fur elise</td>
         <td>
-            <a href="../Task2/musicstore/${productCode}/Fur elise.mp3"> MP3 </a>
+            <a href="../Task2/musicstore/${productCode}/Fur_elise.mp3"> MP3 </a>
         </td >
     </tr>
     <tr>
         <td> Sonate Moonlight </td>
         <td>
-            <a href="../Task2/musicstore/${productCode}/Sonate Moonlight.mp3"> MP3 </a>
+            <a href="../Task2/musicstore/${productCode}/Sonate_Moonlight.mp3"> MP3 </a>
         </td>
     </tr>
 </table>

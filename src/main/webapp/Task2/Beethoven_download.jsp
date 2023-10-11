@@ -24,13 +24,13 @@
     <tr>
         <td>Fur elise</td>
         <td>
-            <a href="../Task2/musicstore/${productCode}/Fur elise.mp3"> MP3 </a>
+            <a href="../Task2/musicstore/${productCode}/Fur_elise.mp3"> MP3 </a>
         </td >
     </tr>
     <tr>
         <td> Sonate Moonlight </td>
         <td>
-            <a href="../Task2/musicstore/${productCode}/Sonate Moonlight.mp3"> MP3 </a>
+            <a href="../Task2/musicstore/${productCode}/Sonate_Moonlight.mp3"> MP3 </a>
         </td>
     </tr>
 </table>

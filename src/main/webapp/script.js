@@ -31,9 +31,38 @@ window.onscroll=() =>{
             });
         };
     });
-    let header = document.querySelector('header')
+    let header = document.querySelector('header');
     header.classList.toggle ('sticky',window.scrollY>100);
 };
+/*=============EmailJS===============*/
+const contactForm =document.getElementById('contact-form'),
+    contactMessage = document.getElementById('contact-message')
+
+const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs.sendForm('service_k7kuf3', 'template_cws5vdh', '#contact-form', 'E-S1gH4M6tHgkJzEb')
+        .then(() => {
+            contactMessage.textContent = 'Message sent successfully';
+            setTimeout(() => {
+                contactMessage.textContent = '';
+            }, 5000);
+            contactForm.reset();
+        })
+        .catch(() => {
+            contactMessage.textContent = 'Message not sent';
+        });
+};
+contactForm.addEventListener('submit',sendEmail)
+/*=========ScrollReveal==========*/
+const sr = ScrollReveal({
+    origin:'top',
+    distance:'60px',
+    duration:2500,
+    delay:400,
+});
+sr.init();
+sr.reveal(`.section_text_p1`,{origin: 'right'});
+
 
 
 

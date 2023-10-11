@@ -11,42 +11,90 @@
     <title>PortFolio</title>
     <link rel="icon" type="image/x-icon" href="viadeo.svg">
 </head>
-
 <body>
-<header class="header">
+<header>
     <a class="logo">Portfolio.</a>
-    <h3><span class="Welcome-text"></span></h3>
+    <div class="loader">
+    <span class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 100 100">
+            <ellipse transform="rotate(-21.283 49.994 75.642)" cx="50" cy="75.651" rx="19.347" ry="16.432" fill="currentColor"></ellipse>
+            <path fill="currentColor" d="M58.474 7.5h10.258v63.568H58.474z"></path>
+        </svg>
+    </span>
+        <span class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 100 100">
+            <ellipse transform="rotate(-21.283 49.994 75.642)" cx="50" cy="75.651" rx="19.347" ry="16.432" fill="currentColor"></ellipse>
+            <path fill="currentColor" d="M58.474 7.5h10.258v63.568H58.474z"></path>
+        </svg>
+    </span>
+        <span class="icon">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0" y="0" viewBox="0 0 100 100">
+            <ellipse transform="rotate(-21.283 49.994 75.642)" cx="50" cy="75.651" rx="19.347" ry="16.432" fill="currentColor"></ellipse>
+            <path fill="currentColor" d="M58.474 7.5h10.258v63.568H58.474z"></path>
+        </svg>
+    </span>
+    </div>
     <nav class="navbar">
         <a href="#home" style="--i:1;" class="active">Home</a>
         <a href="#about" style="--i:2;">About</a>
-        <a href="#tasks" style="--i:3;">Tasks</a>
-        <a href="#contact" style="--i:4;">Contact</a>
+        <a href="#experience" style="--i:3">Experience</a>
+        <a href="#tasks" style="--i:4;">Tasks</a>
+        <a href="#contact" style="--i:5;">Contact</a>
     </nav>
 </header>
 <section class="home" id="home">
+    <div class ="hero">
+        <img src="profile.jpg" alt="mypic">
+    </div>
     <div class="home-content">
-        <h3>Hello, It's me</h3>
-        <h1>Cao Thai Dat</h1>
-        <h2>And <span class ="multiple-text"></span></h2>
-        <p>This website's aim is for serving my web study.</p>
+        <div class="section__text">
+        <p class="section_text_p1">Hello, I'm</p>
+        <h1 class = "title">Cao Thai Dat</h1>
+        <p class="section_text_p2"><span class ="multiple-text"></span></p>
+        <p>Visit my social</p>
+        </div>
+
         <div class="social-media">
             <a href="https://www.facebook.com/dat.hiv/" target="_blank" style="--i:6"><i class="fab fa-facebook-f icon"></i></i></a>
             <a href="" style="--i:7"><i class="fab fa-twitter icon" ></i></a>
             <a href="https://github.com/thdat2411" target="_blank" style="--i:8"><i class="fab fa-github icon"></i></a>
         </div>
-        <a class="btn" >Give me a heart</a>
-    </div>
-    <div class="home-img">
-        <img src="hehe2.jpg" alt="">
     </div>
 </section>
 
 <section class="about" id="about">
-    <div class="about-img">
-        <img src="ny.jpg" alt="">
-    </div>
-    <div class="about-content">
-        <h2 class="heading">About <span>Me</span></h2>
+    <p class="section_text_p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+        <div class="section_pic-container">
+            <img
+                    src="about.jpg"
+                    alt="Profile picture"
+                    class="about-pic"
+            />
+        </div>
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img
+                            src="experience.png"
+                            alt="Experience icon"
+                            class="icon"
+                    />
+                    <h3>Experience</h3>
+                    <p><1 year part time<br/>IT Junior</p>
+                </div>
+                <div class="details-container">
+                    <img
+                            src="education.png"
+                            alt="Education icon"
+                            class="icon"
+                    />
+                    <h3>Education</h3>
+                    <p>Cu Chi Highschool<br/>University of Education and Technology</p>
+                </div>
+            </div>
+        <div class="text-container">
         <p>My name is Cao Thai Dat, and I'm a 19-year-old student currently pursuing my education at Ho Chi Minh City
             University of Technology and Education (HCMUTE). I have a deep passion for Information Technology (IT),
             which is my chosen major at the university.<br>
@@ -57,70 +105,230 @@
             <br>I'm particularly enthusiastic about software development and coding. I enjoy the process of creating
             software applications, solving complex problems, and turning ideas into functional, user-friendly programs.
             I've had the opportunity to work on various projects during my time at university,
-            honing my programming skills and gaining practical experience.</br></p>
-        <a href="#" class="btn">Read more</a>
+            honing my programming skills and gaining practical experience.</br>
+        </p>
+        </div>
+        </div>
+    </div>
+</section>
+<section id="experience">
+    <p class="section_text_p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container">
+                <h2 class="experience-sub-title">Language Skills</h2>
+                <div class="article-container">
+                    <article>
+                        <img
+                                src="checkmark.png"
+                                alt="Experience icon"
+                                class="icon"
+                        />
+                        <div>
+                            <h3>C++</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img
+                                src="checkmark.png"
+                                alt="Experience icon"
+                                class="icon"
+                        />
+                        <div>
+                            <h3>C#</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img
+                                src="checkmark.png"
+                                alt="Experience icon"
+                                class="icon"
+                        />
+                        <div>
+                            <h3>Javascript</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img
+                                src="checkmark.png"
+                                alt="Experience icon"
+                                class="icon"
+                        />
+                        <div>
+                            <h3>Python</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img
+                                src="checkmark.png"
+                                alt="Experience icon"
+                                class="icon"
+                        />
+                        <div>
+                            <h3>Golang</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="details-container">
+                <h2 class="experience-sub-title">Web skills</h2>
+                <div class="article-container">
+                    <article>
+                        <img
+                                src="checkmark.png"
+                                alt="Experience icon"
+                                class="icon"
+                        />
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img
+                                src="checkmark.png"
+                                alt="Experience icon"
+                                class="icon"
+                        />
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 <section class="tasks" id="tasks">
-    <h2> My Web <span>tasks</span></h2>
-    <div class="tasks-container">
-        <div class="tasks-box">
-            <i class='bx bxs-bookmarks' ></i>
-            <h3>Task.1</h3>
-            <p>Demo first web application</p>
-            <a href="Task1/home" target="_blank" class="btn">Visit web</a>
-        </div>
+    <div class="title">My Tasks</div>
+        <div class="tasks_container">
+             <article class="tasks_card">
+                 <div class ="tasks_border"></div>
+                 <div class ="tasks_content">
+                     <div clas="tasks_icon">
+                         <div class ="tasks_box"></div>
+                         <i class="fa-solid fa-code"></i>
+                     </div>
+                     <h2 class="task_title">EmailServlet(Chapter 5-6.2)</h2>
+                     <p class="task_description">
+                         Commit
+                     </p>
+                     <a href ="Task1/home" target="_blank"><Button>
+                         <p>Visit</p>
+                         <svg stroke-width="4" stroke="currentColor" viewBox="0 0 24 24" fill="none" class="h-6 w-6" xmlns="http://www.w3.org/2000/svg">
+                             <path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linejoin="round" stroke-linecap="round"></path>
+                         </svg>
+                     </button>
+                     </a>
+                 </div>
 
-        <div class="tasks-box">
-            <i class='bx bxs-bookmarks'></i>
-            <h3>Task.2</h3>
-            <p>Task 5.2</p>
-            <a href="Task2/ListofAlbums" target="_blank" class="btn">Visit web</a>
-        </div>
+             </article>
 
-        <div class="tasks-box">
-            <i class='bx bxs-bookmarks' ></i>
-            <h3>Task.3</h3>
-            <p>text</p>
-            <a href="Task2/TestPost.html" class="btn">Visit web</a>
-        </div>
+            <article class="tasks_card">
+                <div class ="tasks_border"></div>
+                <div class ="tasks_content">
+                    <div clas="tasks_icon">
+                        <div class ="tasks_box"></div>
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h2 class="task_title">Cookies&Sessions(Chapter 7)</h2>
+                    <p class="task_description">
+                        Commit
+                    </p>
+                    <a href = "/Task2/ListofAlbums" target="_blank"><button>
+                        <p>Visit</p>
+                        <svg stroke-width="4" stroke="currentColor" viewBox="0 0 24 24" fill="none" class="h-6 w-6" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linejoin="round" stroke-linecap="round"></path>
+                        </svg>
+                    </button>
+                    </a>
+                </div>
+            </article>
 
-        <div class="tasks-box">
-            <i class='bx bxs-bookmarks' ></i>
-            <h3>Task.4</h3>
-            <p>text</p>
-            <a href="#" class="btn">Visit web</a>
-        </div>
+            <article class="tasks_card">
+                <div class ="tasks_border"></div>
+                <div class ="tasks_content">
+                    <div clas="tasks_icon">
+                        <div class ="tasks_box"></div>
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h2 class="task_title">EmailServlet(Task 5-6.2)</h2>
+                    <p class="task_description">
+                        Commit
+                    </p>
+                    <button>
+                        <p>Visit</p>
+                        <svg stroke-width="4" stroke="currentColor" viewBox="0 0 24 24" fill="none" class="h-6 w-6" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linejoin="round" stroke-linecap="round"></path>
+                        </svg>
+                    </button>
+                </div>
+            </article>
 
-        <div class="tasks-box">
-            <i class='bx bxs-bookmarks' ></i>
-            <h3>Task.5</h3>
-            <p>text</p>
-            <a href="#" class="btn">Visit web</a>
+            <article class="tasks_card">
+                <div class ="tasks_border"></div>
+                <div class ="tasks_content">
+                    <div clas="tasks_icon">
+                        <div class ="tasks_box"></div>
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h2 class="task_title">EmailServlet(Task 5-6.2)</h2>
+                    <p class="task_description">
+                        Commit
+                    </p>
+                    <button>
+                        <p>Visit</p>
+                        <svg stroke-width="4" stroke="currentColor" viewBox="0 0 24 24" fill="none" class="h-6 w-6" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linejoin="round" stroke-linecap="round"></path>
+                        </svg>
+                    </button>
+                </div>
+            </article>
         </div>
-
-        <div class="tasks-box">
-            <i class='bx bxs-bookmarks' ></i>
-            <h3>Task.6</h3>
-            <p>text</p>
-            <a href="#" class="btn">Visit web</a>
-        </div>
-    </div>
 </section>
 <section class="contact" id="contact">
-    <h2>Contact <span> Me!</span></h2>
-    <form action="https://formspree.io/f/mnqkgkyo"
-          method="POST">
-        <div class="input-box">
-            <input type="text" name = "Full name"  placeholder="Full name" required>
-            <input type="email" name = "Email address" placeholder="Email Address" required>
+    <div class="contact_title">Send Me A Message</div>
+    <form action="" class="contact_form" id="contact-form">
+        <div class="contact_group">
+            <div class="contact_box">
+                <input type="text" name="user_name" class="contact_input" id="name" required placeholder="First Name">
+                <label for="name" class="contact_label">First Name</label>
+            </div>
+
+            <div class="contact_box">
+                <input type="emial" name="user_email" class="contact_input" id="email" required placeholder="Email Address">
+                <label for="email" class="contact_label">Email Address</label>
+            </div>
+
+            <div class="contact_box">
+                <input type="text" name="user_subject" class="contact_input" id="subject" required placeholder="Subject">
+                <label for="subject" class="contact_label">Subject</label>
+            </div>
+
+            <div class="contact_box contact_area">
+                <textarea name="user_message" id="message"  class="contact_input" required placeholder="Message"></textarea>
+                <label for="message" class="contact_label">Message</label>
+            </div>
+            <p class="contact_message" id="contact-message"></p>
+            <button type="submit">
+                <div class="svg-wrapper-1">
+                    <div class="svg-wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                            <path fill="none" d="M0 0h24v24H0z"></path>
+                            <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+                        </svg>
+                    </div>
+                </div>
+                <span>Send</span>
+            </button>
         </div>
-        <div class="input-box">
-            <input type="number" name= "Mobile number" placeholder="Mobile number" required>
-            <input type="text" name="Email subject" placeholder="Email subject" required>
-        </div>
-        <textarea name="Message" id="" cols="30" rows="10" placeholder="Your message"></textarea>
-        <input type="submit" value="Send Message" class="btn">
     </form>
 </section>
 <footer class="footer">
@@ -132,6 +340,8 @@
     </div>
 </footer>
 <script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://raw.githubusercontent.com/jlmakes/scrollreveal/master/dist/scrollreveal.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
