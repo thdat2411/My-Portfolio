@@ -22,7 +22,7 @@ public class Task2download extends HttpServlet {
         } else if (action.equals("checkUser")) {
             url = checkUser(request, response);
         } else if (action.equals("viewCookies")) {
-        url = "/view_cookies.jsp";
+        url = "/Task2/view_cookies.jsp";
     } else if (action.equals("deleteCookies")) {
         url = deleteCookies(request, response);
     }
@@ -107,7 +107,7 @@ public class Task2download extends HttpServlet {
             cookie.setPath("/"); //allow the download application to access it
             response.addCookie(cookie);
         }
-        String url = "/delete_cookies.jsp";
+        String url = "/Task2/delete_cookie.jsp";
         return url;
     }
 }

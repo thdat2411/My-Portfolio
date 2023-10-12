@@ -1,16 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Poppins:wght@300;400&display=swap');
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins',sans-serif;;
     font-size: 11pt;
     margin-left: 2em;
     margin-right: 2em;
 }
-h1 {
-    color: red;
-}
+
 label {
     float: left;
-    width: 6em;
-    margin-bottom: 0.5em;
+    width: 9rem;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
 input[type="text"], input[type="email"] {
     width: 15em;
@@ -20,9 +20,171 @@ input[type="text"], input[type="email"] {
 br {
     clear: both;
 }
-#submit {
-    margin-left: 0.5em; }
+
 p{
-    margin-bottom: 0.5px;
+    margin-bottom: 10px;
     font-style: italic;
 }
+body img{
+    align-content: center;
+}
+.header
+{
+    display: flex;
+}
+
+.login-box {
+    position: absolute;
+    top:50%;
+    left:50%;
+    width: 600px;
+    padding: 40px;
+    margin: 20px auto;
+    transform: translate(-50%, -55%);
+    box-sizing: border-box;
+    box-shadow:whitesmoke;
+    border:4px solid black
+}
+.login-box h1{
+    position: relative;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.login-box p:first-child {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.login-box .user-box {
+    position: relative;
+}
+
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #111111;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+}
+.login-box .user-box1 label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    color: #111111;
+    pointer-events: none;
+    transition: .5s;
+}
+.login-box .user-box2 label{
+    position: absolute;
+    top: 0;
+    left: 60%;
+    padding: 10px 0;
+    color: #111111;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.login-box .user-box1 input:focus ~ label,
+.login-box .user-box1 input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #111111;
+    font-size: 12px;
+}
+
+.login-box .user-box2 input:focus ~ label,
+.login-box .user-box2 input:valid ~ label {
+    top: -20px;
+    left: 60%;
+    color: #111111;
+    font-size: 12px;
+}
+
+
+.login-box form .user-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 15px 25px;
+    border: 1px solid #111111;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 900;
+    font-size: 17px;
+    transition: all 250ms;
+    overflow: hidden;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.btn:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.btn:hover::before {
+    width: 100%;
+}
+.btn_submit_return{
+    display: flex;
+    justify-content: space-between;
+}
+/*===================thanks.jsp=================*/
+.card {
+    position: absolute;
+    top:50%;
+    left:50%;
+    width: 600px;
+    padding: 40px;
+    margin: 20px auto;
+    transform: translate(-50%, -55%);
+    box-sizing: border-box;
+    box-shadow:whitesmoke;
+    border:4px solid black
+}
+
+.tools {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+}
+
+.circle {
+    padding: 0 4px;
+}
+
+.box {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: #ff605c;
+}
+
+.yellow {
+    background-color: #ffbd44;
+}
+
+.green {
+    background-color: #00ca4e;
+}
+

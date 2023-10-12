@@ -16,7 +16,7 @@ public class Task1Response extends HttpServlet {
     protected void doPost(HttpServletRequest request,
                           HttpServletResponse response)
             throws ServletException, IOException {
-
+        String notify="";
         String url = "Task1";
 
         // get current action
@@ -26,7 +26,9 @@ public class Task1Response extends HttpServlet {
         }
         // perform action and set URL to appropriate page
         if (action.equals("join")) {
-            url = "/Task1/home";    // the "join" page
+            notify="../Task1/dog_smile.jpg";
+            request.setAttribute("notify",notify);
+            url = "/Task1/Home";    // the "join" page
         } else if (action.equals("add")) {
             // get parameters from the request
             String firstName = request.getParameter("firstName");
@@ -41,12 +43,14 @@ public class Task1Response extends HttpServlet {
             User user = new User(firstName, lastName, email, birth, hearAbout, announcement, contact);
 //            UserDB.insert(user);
             String message="";
+
             if (firstName.isEmpty() || lastName.isEmpty() || email.isEmpty() || birth.isEmpty() || hearAbout==null || announcement==null || contact.isEmpty()) {
                 message = "Please fill out all the information";
                 request.setAttribute("message",message);
-                url = "/Task1/home";
+                url = "/Task1/Home";
             }
             else {
+
                 request.setAttribute("user", user);
                 url = "/Task1/thanks.jsp";
             }
