@@ -34,24 +34,28 @@
             <p class="artist">Beethoven</p>
         </div>
         <div class="albumcover">
-            <img src="../Task2/image/beethoven.jpg" width="45px" height="45px" >
+            <img src="../Task2/image/beethoven.jpg" width="45px" height="45px">
         </div>
         <div class="play"></div>
     </a>
-    <a href="download?action=checkUser&amp;productCode=pf02" class="loader">
+    <a href="download?action=checkUser&amp;productCode=CharliePuth" class="loader">
         <div class="song">
-            <p class="name">Lemon Tree</p>
-            <p class="artist">Fools Garden</p>
+            <p class="name">Voice Notes</p>
+            <p class="artist">Charlie Puth</p>
         </div>
-        <div class="albumcover"></div>
+        <div class="albumcover">
+            <img src="../Task2/image/CharliePuth.jpg" width="45px" height="45px" >
+        </div>
         <div class="play"></div>
     </a>
-    <a href="download?action=checkUser&amp;productCode=pf02" class="loader">
+    <a href="download?action=checkUser&amp;productCode=TheWeekend" class="loader">
         <div class="song">
-            <p class="name">Lemon Tree</p>
-            <p class="artist">Fools Garden</p>
+            <p class="name">Blinding Lights</p>
+            <p class="artist">The Weekend</p>
         </div>
-        <div class="albumcover"></div>
+        <div class="albumcover">
+            <img src="../Task2/image/The_Weekend.jpg" width="45px" height="45px">
+        </div>
         <div class="play"></div>
     </a>
 </div>

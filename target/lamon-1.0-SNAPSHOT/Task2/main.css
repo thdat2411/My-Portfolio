@@ -89,7 +89,7 @@ span{
     z-index: 3;
 }
 
-.button {
+button {
     margin-top: 30px;
     text-decoration: none;
     border: none;
