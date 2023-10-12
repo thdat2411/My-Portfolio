@@ -396,3 +396,28 @@ button {
     width: 100%;
 }
 
+/*=============Return button============*/
+.return_btn {
+    padding: 15px 25px;
+    border: 1px solid #111111;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 900;
+    font-size: 17px;
+    transition: all 250ms;
+    overflow: hidden;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.return_btn:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.return_btn:hover::before {
+    width: 100%;
+}
+
+

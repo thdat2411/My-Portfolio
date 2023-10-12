@@ -59,6 +59,11 @@
         <div class="play"></div>
     </a>
 </div>
+<div class="btn_return__btn">
+    <a href="../" target="_self" class="btn_return__btn">
+    <input type="submit" value="Return to home" class="return_btn">
+    </a>
+</div>
 </body>
 </html>
 

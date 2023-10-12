@@ -51,7 +51,7 @@ To change this template use File | Settings | File Templates.
         </button><br>
 
         <button>
-            <a href="download?action=viewCookies" class="btn_view_cookie"><span class="spn2">Delete cookies !</span></a>
+            <a href="download?action=viewCookies" class="btn_view_cookie"><span class="spn2">View cookies !</span></a>
         </button>
     </div>
 </div>

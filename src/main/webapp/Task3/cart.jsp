@@ -54,7 +54,7 @@
     <input type="hidden" name="action" value="checkout">
     <button type="submit" class="option_button__button"><span class="spn2">Check out!</span></button>
 </form>
-</div>
+
 </div>
 </body>
 </html>
