@@ -154,7 +154,7 @@ body img{
     transform: translate(-50%, -55%);
     box-sizing: border-box;
     box-shadow:whitesmoke;
-    border:4px solid black
+    border:4px solid black;
 }
 
 .tools {

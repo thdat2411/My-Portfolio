@@ -16,7 +16,7 @@ To change this template use File | Settings | File Templates.
 <body>
 <div class="albums">
     <h1> Downloads</h1>
-    <h2>Beethoven - Immortal Piano Songs</h2>
+    <h2>Micheal Jackson - Memorable Songs</h2>
     <div class="voice-chat-card">
         <div class="voice-chat-card-header">
             <div class="username">Heal the world</div>

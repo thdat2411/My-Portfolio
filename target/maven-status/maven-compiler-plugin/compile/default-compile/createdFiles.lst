@@ -1,6 +1,11 @@
+murach\email\Task1Response.class
+murach\business\Product.class
 murach\download\CookieUtil.class
 murach\business\User.class
 murach\download\UserIO.class
-murach\email\Task1Response.class
+murach\cart\ProductIO.class
+murach\business\Cart.class
+murach\business\LineItem.class
+murach\cart\Task3Cart.class
 com\example\lamon\HelloServlet.class
 murach\download\Task2download.class

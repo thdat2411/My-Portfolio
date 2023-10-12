@@ -28,7 +28,7 @@ public class Task1Response extends HttpServlet {
         if (action.equals("join")) {
             notify="../Task1/dog_smile.jpg";
             request.setAttribute("notify",notify);
-            url = "/Task1/Home";    // the "join" page
+            url = "/Task1/home";    // the "join" page
         } else if (action.equals("add")) {
             // get parameters from the request
             String firstName = request.getParameter("firstName");
@@ -47,7 +47,7 @@ public class Task1Response extends HttpServlet {
             if (firstName.isEmpty() || lastName.isEmpty() || email.isEmpty() || birth.isEmpty() || hearAbout==null || announcement==null || contact.isEmpty()) {
                 message = "Please fill out all the information";
                 request.setAttribute("message",message);
-                url = "/Task1/Home";
+                url = "/Task1/home";
             }
             else {
 
