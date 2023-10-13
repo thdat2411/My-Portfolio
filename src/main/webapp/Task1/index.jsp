@@ -6,7 +6,7 @@
 <c:choose>
 <c:when test="${empty notify}">
 <img src="../Task1/sadcat.jpg" alt="JavaLogo" width="400">
-    <h2>I'm crying, help me to do the left form. Many Thanks :(</h2>
+    <h2>I'm crying, help me to do the right form. Many Thanks :(</h2>
 </c:when>
 <c:otherwise>
 <img src="${notify}" alt="JavaLogo" width="400">
