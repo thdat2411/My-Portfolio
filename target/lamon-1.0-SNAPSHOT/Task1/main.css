@@ -155,9 +155,7 @@ body img{
     box-sizing: border-box;
     box-shadow:whitesmoke;
     border:4px solid black;
-    opacity: 0;
-    animation: slideTop 1s ease forwards;
-    animation-delay: 1s;
+    transform: translate(-50%,55%);
 }
 
 .tools {
